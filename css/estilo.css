@@ -1,0 +1,41 @@
+body{
+    font-size: large;
+    font-family: fantasy;
+    background-image: linear-gradient(to bottom, #9400d3,#1c39bb);
+    color: cornsilk;
+    text-align: center;
+    max-width: 100%;
+}
+
+h1{
+  
+    text-shadow: 10px 10px 10px black;
+}
+
+strong{
+    color:black;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.links, .lists{
+    color: black;
+    line-height: 40px;
+}
+
+.lists li{
+    display: inline-block;
+    padding: 4px;
+}
+
+a{
+    color:navajowhite;
+    padding: 5px;
+    text-decoration: underline 2px violet;
+    
+}
+
+
+
