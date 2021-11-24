@@ -25,6 +25,7 @@ body{
 .topo .container{
 
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -80,15 +81,6 @@ p strong, em{
 
 /* conteudo de apoio 1 inicio */
 
-.lista-comp .container-competencias{
-
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 0 auto;
-    margin: 0 auto;
-}
-
 .titulo-competencias{
     text-transform: uppercase;
     text-align: center;
@@ -136,27 +128,15 @@ p strong, em{
 }
 
 .interpessoais li:hover{
-    font-size: 20px;
     cursor: grab;
 }
 
 .tecnicos li:hover{
-    font-size: 20px;
     cursor: grab;
 }
 /* conteudo de apoio 1 fim*/
 
 /* conteudo de apoio 2 inicio */
-
-.lista-cont .container-contato{
-
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 0 auto;
-    margin: 25px auto;
-    
-}
 
 .titulo-contato{
     text-transform: uppercase;
@@ -203,11 +183,13 @@ p strong, em{
 }
 
 .blogs li:hover{
-    font-size: 20px;
+    cursor: grab;
+
 }
 
 .redesSociais li:hover{
-    font-size: 20px;
+    cursor: grab;
+    
 }
 
 .blogs a{
@@ -229,12 +211,11 @@ p strong, em{
 }
 
 .rodape .container-rodape{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     color: darkslategrey;
     font-weight: 600;
     background-image: linear-gradient(to right,#E0FFFF,	#E6E6FA);
+    padding: 10px;
 }
 .container-rodape h3{
     font-size: 25px;
