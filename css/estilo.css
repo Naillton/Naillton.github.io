@@ -1,41 +1,239 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
-    font-size: large;
-    font-family: fantasy;
-    background-image: linear-gradient(to bottom, #9400d3,#4169E1);
-    color: cornsilk;
-    text-align: center;
-    max-width: 100%;
+
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-h1{
-  
-    text-shadow: 10px 10px 10px black;
+.container{
+    max-width: 1200px;
 }
 
-strong{
-    color:black;
+/* conteudo principal */
+
+.topo{
+    position: fixed;
+    width: 100%;
+    background-image: linear-gradient(to right,#E0FFFF,	#E6E6FA);
+}
+
+.topo .container{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 60px;
+    padding: 0 auto;
+    margin: 0 auto;
+
+}
+
+.topo-titulo{
+    font-weight: 500;
+    font-size: 20px;
+    font-family: monospace;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px darkslategrey;
+}
+
+.links-topo a{
+    text-decoration: none;
+    padding: 0 10px;
+    text-transform: uppercase;
+    color: darkslategrey;
+    font-weight: 600;
+}
+
+.links-topo a:hover{
+    border-radius: 30px;
+    background-color:paleturquoise;
+    padding: 20px;
 }
 
 img{
+    margin-top: 100px;
+    width: 500px;
     border-radius: 50%;
 }
 
-.links, .lists{
-    color: black;
-    line-height: 40px;
+.container-principal .inicio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-.lists li{
-    display: inline-block;
-    padding: 4px;
+.inicio p{
+    text-transform: uppercase;
 }
 
-a{
-    color:navajowhite;
-    padding: 5px;
-    text-decoration: underline 2px violet;
+p strong, em{
+    color: #54b3b3;
+}
+
+/* conteudo principal fim */
+
+/* conteudo de apoio 1 inicio */
+
+.lista-comp .container-competencias{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.titulo-competencias{
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 100px;
+}
+
+.boxInter{
+    width: 200px;
+    height: 130px;
+    background: #cffcfc;
+    margin-bottom: 10px;
+}
+
+.boxInter:hover{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 20px 0px 0px;
+    transition: width 2s;
+}
+
+.boxTec{
+    width: 200px;
+    height: 130px;
+    background: #E6E6FA;
+}
+
+.boxTec:hover{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 20px 0px 0px;
+    transition: width 2s;
+}
+
+
+
+.interpessoais li{
+    list-style: none;
     
 }
 
+.tecnicos li{
+    list-style: none;
+}
 
+.interpessoais li:hover{
+    font-size: 20px;
+    cursor: grab;
+}
+
+.tecnicos li:hover{
+    font-size: 20px;
+    cursor: grab;
+}
+/* conteudo de apoio 1 fim*/
+
+/* conteudo de apoio 2 inicio */
+
+.lista-cont .container-contato{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 auto;
+    margin: 25px auto;
+    
+}
+
+.titulo-contato{
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 100px;
+}
+
+.boxBlogs{
+    width: 200px;
+    height: 130px;
+    background: #cffcfc;
+    margin-bottom: 10px;
+}
+
+.boxBlogs:hover{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 20px 0px 0px;
+    transition: width 2s;
+}
+
+.boxSociais{
+    width: 200px;
+    height: 130px;
+    background: #E6E6FA;
+}
+
+.boxSociais:hover{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 20px 0px 0px;
+    transition: width 2s;
+}
+
+.blogs li{
+    list-style: none;  
+    
+}
+
+.redesSociais li{
+    list-style: none;
+}
+
+.blogs li:hover{
+    font-size: 20px;
+}
+
+.redesSociais li:hover{
+    font-size: 20px;
+}
+
+.blogs a{
+    text-decoration: none;
+    color: black;
+}
+
+.redesSociais a{
+    text-decoration: none;
+    color: black;
+}
+
+/* conteudo de apoio 2 fim */
+
+.container-rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: darkslategrey;
+    font-weight: 600;
+    background-image: linear-gradient(to right,#E0FFFF,	#E6E6FA);
+}
+
+.container-rodape h3{
+    font-size: 25px;
+    font-family: cursive;
+}
 
