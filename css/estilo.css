@@ -222,16 +222,20 @@ p strong, em{
 
 /* conteudo de apoio 2 fim */
 
-.container-rodape{
+
+.rodape{
+    height: 10px;
+    width: 100%;
+}
+
+.rodape .container-rodape{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
     color: darkslategrey;
     font-weight: 600;
     background-image: linear-gradient(to right,#E0FFFF,	#E6E6FA);
 }
-
 .container-rodape h3{
     font-size: 25px;
     font-family: cursive;
