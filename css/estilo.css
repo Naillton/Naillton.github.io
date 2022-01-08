@@ -53,7 +53,7 @@ body{
 }
 
 img{
-    margin-top: 50px;
+    margin-top: 70px;
     margin-bottom: 50px;
     width: 500px;
     border-radius: 50%;
@@ -111,6 +111,7 @@ p strong, em{
     justify-content: flex-end;
     padding: 0px 20px 0px 0px;
     transition: width 2s;
+    margin-bottom: 20px;
 }
 
 .interpessoais li{
@@ -164,6 +165,7 @@ p strong, em{
     justify-content: flex-end;
     padding: 0px 20px 0px 0px;
     transition: width 2s;
+    margin-bottom: 20px;
 }
 
 .blogs li{
