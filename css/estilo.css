@@ -1,11 +1,10 @@
 *{
+     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body{
-
-    margin: 0;
-    padding: 0;
     background-color:rgb(250, 242, 242);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -29,10 +28,6 @@ body{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    min-height: 60px;
-    padding: 0 auto;
-    margin: 0 auto;
-
 }
 
 .topo-titulo{
@@ -58,7 +53,8 @@ body{
 }
 
 img{
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 500px;
     border-radius: 50%;
 }
@@ -67,10 +63,12 @@ img{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 20px;
 }
 
 .inicio p{
     text-transform: uppercase;
+    margin-left: 20px;
 }
 
 p strong, em{
@@ -89,7 +87,6 @@ p strong, em{
 
 .boxInter{
     width: 200px;
-    height: 130px;
     background: #cffcfc;
     margin-bottom: 10px;
 }
@@ -97,6 +94,7 @@ p strong, em{
 .boxInter:hover{
     width: 50%;
     display: flex;
+    flex-basis: 200px;
     justify-content: flex-end;
     padding: 0px 20px 0px 0px;
     transition: width 2s;
@@ -104,7 +102,6 @@ p strong, em{
 
 .boxTec{
     width: 200px;
-    height: 130px;
     background: #E6E6FA;
 }
 
@@ -115,8 +112,6 @@ p strong, em{
     padding: 0px 20px 0px 0px;
     transition: width 2s;
 }
-
-
 
 .interpessoais li{
     list-style: none;
@@ -146,7 +141,6 @@ p strong, em{
 
 .boxBlogs{
     width: 200px;
-    height: 130px;
     background: #cffcfc;
     margin-bottom: 10px;
 }
@@ -161,7 +155,6 @@ p strong, em{
 
 .boxSociais{
     width: 200px;
-    height: 130px;
     background: #E6E6FA;
 }
 
