@@ -1,6 +1,7 @@
 const boxInter = document.querySelector("#boxInter");
 const boxTec = document.querySelector("#boxTec");
 const boxB = document.querySelector("#boxB");
+const boxS = document.querySelector("#boxS");
 
 let pessoal = [
     "Determinacao",
@@ -34,6 +35,18 @@ let links = [
     "https://diolinux.com.br/",
     "https://www.cshub.com/",
     "https://www.devmedia.com.br/"
+];
+
+let sociais = [
+    "https://github.com/Naillton",
+    "https://www.linkedin.com/in/nailton-junior-6620951b1/",
+    "https://www.instagram.com/nailtonjunior2/"
+];
+
+let contas = [
+    "Github",
+    "Linkedin",
+    "Instagram"
 ];
 
 function elementosPessoais(){
@@ -71,3 +84,19 @@ function elementoBlog(){
 }
 
 elementoBlog();
+
+function account(){
+    for(let i = 0; i < sociais.length; i += 1){
+        let a = document.createElement('a');
+        let li = document.createElement('li');
+        a.setAttribute("href", sociais[i]);
+        a.setAttribute("target", "_blank");
+        for(let conta = 0; conta < contas.length; conta += 1){
+            a.innerText = contas[i]
+            li.appendChild(a);
+            boxS.appendChild(li)
+        }
+    }
+}
+
+account();
