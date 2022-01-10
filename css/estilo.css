@@ -203,6 +203,7 @@ p strong, em{
 .rodape{
     height: 10px;
     width: 100%;
+    position: absolute;
 }
 
 .rodape .container-rodape{
@@ -217,3 +218,32 @@ p strong, em{
     font-family: cursive;
 }
 
+@media screen and (min-width: 320px) and (max-width: 768px){
+
+    .topo .container{
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container-principal .inicio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+    }
+
+    img{
+        margin-top: 100px;
+        width: 300px;
+        border-radius: 50%;
+    }
+
+    .links-topo{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+}
