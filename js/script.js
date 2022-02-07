@@ -18,7 +18,9 @@ let tecno = [
     "Java",
     "Python",
     "Css",
-    "JavaScript"
+    "JavaScript",
+    "Testes assincronos",
+    "Jest"
 ];
 
 let blogs = [
