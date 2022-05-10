@@ -8,7 +8,9 @@ let pessoal = [
     "Trabalho em equipe",
     "Vontade",
     "Foco",
-    "Criatividade"
+    "Criatividade",
+    "Flexibilidade",
+    "Adaptabilidade"
 ];
 
 let tecno = [
@@ -20,7 +22,10 @@ let tecno = [
     "Css",
     "JavaScript",
     "Testes assincronos",
-    "Jest"
+    "Jest",
+    "React",
+    "RTL",
+    "Hooks"
 ];
 
 let blogs = [
